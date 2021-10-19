@@ -13,8 +13,8 @@ const SecondaryButton = ({ name }) => {
 
 const SecondaryButtonStyled = styled.button`
   background-color: var(--dark-primary);
-  padding: 0.6rem 2rem;
-  border-radius: 20px;
+  padding: 0.9rem 2rem;
+  border-radius: 60px;
   font-family: inherit;
   font-size: inherit;
   color: inherit;
@@ -23,7 +23,7 @@ const SecondaryButtonStyled = styled.button`
   align-items: center;
   justify-content: space-between;
   img {
-    padding-left: 0.9rem;
+    padding-left: 1rem;
   }
 `;
 export default SecondaryButton;
