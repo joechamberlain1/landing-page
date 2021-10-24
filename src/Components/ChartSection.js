@@ -41,8 +41,15 @@ const ChartStyled = styled.section`
   .chart-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    @media screen and (max-width: 1350px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
     .chart-left {
       width: 80%;
+      @media screen and (max-width: 1350px) {
+        width: 100%;
+      }
+
       .stats {
         img {
           box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);

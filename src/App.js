@@ -5,6 +5,9 @@ import { OuterLayout } from "./styles/Layouts";
 import styled from "styled-components";
 import ChartSection from "./Components/ChartSection";
 import MessagingSection from "./Components/MessagingSection";
+import PaymentSection from "./Components/PaymentSection";
+import FAQSection from "./Components/FAQSection";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -15,8 +18,11 @@ function App() {
           <CardSection />
           <ChartSection />
           <MessagingSection />
+          <PaymentSection />
+          <FAQSection />
         </MainStyled>
       </OuterLayout>
+      <Footer />
     </div>
   );
 }

@@ -47,6 +47,9 @@ const MessageStyle = styled.section`
   .message-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    @media screen and (max-width: 990px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
   .left-items {
     padding-right: 2rem;
@@ -79,7 +82,7 @@ const MessageStyle = styled.section`
     }
     .bgCircle {
       position: absolute;
-      bottom: -7%;
+      bottom: -7%np;
       right: -10%;
       z-index: -1;
     }
